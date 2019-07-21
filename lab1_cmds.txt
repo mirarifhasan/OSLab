@@ -13,13 +13,16 @@ ls
 Folder and file list (with details):
 ls -l
 
+Folder and file list (with hidden files):
+ls -al
+
 Details formate is: 
 drwxr-xr-x arif arif f/d_size modified_time f/d_name
-file or directory, access for user, group, others username, groupname, f/d_size, time, f/d_name
+file or directory, access for user, group, others, username, groupname, f/d_size, date_time, f/d_name
 
 Vsiting a specific directory:
 cd folder_name
-or, cd /file_path
+or, cd /folder_path
 
 Displaing file content:
 cat filename
@@ -27,32 +30,37 @@ or, cat /file_path
 
 Creating a folder:
 mkdir foldername
+mkdir /folder_path/folder_name
 
 File create:
 touch filename
+touch /file_path/file_name
 
 Coping file:
 cp source_path destination_path
 
-Coping directory
+Coping directory:
 cp -r source_path destination_path
 
-Rename file/directory
+Rename file/directory:
 mv current_name new_name
 
-Delete file
+Delete file:
 rm source_path
 or, rm -f source_path
 
-Delete directory
+Delete directory:
 rm -r source_path
 or, rm -rf source_path
 
 Permission change file:
-chmod
+chmod xxx file_name
 *if chmod not work, use 'sudo chmod'
 
 Permission change directory
 chmod -R 756 dir_name
 756 stands for: rwx r-x rw-
 *if chmod not work, use 'sudo chmod'
+
+Create user:
+sudo adduser user_name
