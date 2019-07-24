@@ -57,7 +57,7 @@ Permission change file:
 chmod xxx file_name
 *if chmod not work, use 'sudo chmod'
 
-Permission change directory
+Permission change directory:
 chmod -R 756 dir_name
 756 stands for: rwx r-x rw-
 *if chmod not work, use 'sudo chmod'

@@ -1,31 +1,31 @@
 Create group:
 sudo groupadd group_name
 
-Checking group:
+Checking group file:
 cat /etc/group
 
 Seeing group list, where user joined:
 groups user_name
 
-Seeing currents user'sID's (username, group, etc.)
+Seeing currents user'sID's (username, group, etc.):
 id
 
-Seeing specific user'sID's (username, group, etc.)
+Seeing specific user'sID's (username, group, etc.):
 id user_name
 
-Add a user to a group
+Add a user to a group:
 sudo usermod -a -G group_name user_name
 
-Adding a user to root group
+Adding a user to root group:
 sudo usermod -a -G sudo user_name
 
-Changing primary group
+Changing primary group:
 sudo usermod -g group_name
 
-Change ownership of a file/dir
+Change ownership of a file/dir:
 sudo chown user_name file_name/dir
 
-Change group of a file/dir
+Change group of a file/dir:
 sudo chgrp group_name file_name/dir
 
 Change permission on a folder and it's all files:
@@ -47,10 +47,10 @@ find -name '*'
 find -name '*.c'
 find path -name 'group'
 
-List of file types
+List of file types:
 find -type f
 
-List of dir types
+List of dir types:
 find -type d
 
 File:
@@ -62,37 +62,37 @@ sort file_name | uniq -ic (c for count)
 sort file_name | uniq -icu (u for uniq)
 sort file_name | uniq -icd (d for not uniq)
 
-In File Search
+In File Search:
 grep hi file_name (hi as a sunstring)
 grep -w hi file_name (hi as a word)
 grep -iw hi file_name (hi as a case insecsetive word)
 grep -iwn hi file_name (hi as a case insecsetive word count)
 grep -iwnv hi file_name (hi as a case REST OF insecsetive word count)
 
-File word count
+File word count:
 wc file_name
 Output - line numbers, word numbers, file_size in byte
 
-File line count
+File line count:
 wc -l file_name
 
-File word count
+File word count:
 wc -w file_name
 
 Open file in editor:
 gedit file_name
 
-Printing first 10 lines
+Printing first 10 lines:
 head file_name
 
-Printing first 5 lines
+Printing first 5 lines:
 head -5 file_name
 
-Printing last 10 lines
+Printing last 10 lines:
 tail file_name
 
-Printing last 5 lines
+Printing last 5 lines:
 tail -5 file_name
 
-Printing 7-9 lines
+Printing 7-9 lines:
 head -9 file_name | tail -3
