@@ -9,3 +9,4 @@ Lab1: Basic commands
 Lab2: Basic commands
 Lab3: Basic commands
 Lab4: FCFS & SJF algorithm
+Lab5: RR & SRTN algorithm
