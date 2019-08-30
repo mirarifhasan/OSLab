@@ -10,3 +10,4 @@ Lab2: Basic commands
 Lab3: Basic commands
 Lab4: FCFS & SJF algorithm
 Lab5: RR & SRTN algorithm
+Lab6: Thread, Producre-Consumer
