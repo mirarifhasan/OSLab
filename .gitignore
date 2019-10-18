@@ -15,3 +15,6 @@
 /Lab5/InheritTest/dist/
 /Lab6/Thread/nbproject/private/
 /Lab6/Thread/build/
+
+*.exe
+*.o
